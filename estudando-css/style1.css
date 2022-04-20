@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+}
+header{
+  /*
+  height: 100px;
+  border: 7px dashed red;
+  padding: 16px;
+*/
+}
+main{
+  color: white;
+
+  
+  background: rgb(55, 100, 50);
+  background-image: url(image/rocketseat.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: contain;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-attachment: fixed;
+  
+
+
+  background: rgb(55, 100, 50) url(image/rocketseat.png) no-repeat left top / 70px border-box content-box fixed;
+
+  background: linear-gradient(120deg, rgb(19, 17, 17), yellow ); 
+
+}

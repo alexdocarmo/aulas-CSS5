@@ -1,0 +1,23 @@
+
+
+* {
+  box-sizing: border-box; /* Ajustar a caixa como verdadeira mente 100px apartir do conteudo */
+}
+
+div, section{
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  margin: 0%;
+  padding: 0 20px; /* O 100px está aplicado do conteúdo da caixa */
+  
+}
+section{
+  width: 100px;
+  height: 100px;
+  margin: -20% 110px;
+  border: 20px solid red;
+  box-sizing: border-box;
+  padding: 0; 
+  outline: yellow 4px solid;
+}
